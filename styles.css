@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-box {
+    border: 2px solid black;
+    height: 30%;
+}
+
+.second-box {
+    border: 2px solid black;
+    height: 30%;
+}
+
+.third-box {
+    border: 2px solid black;
+    height: 20%;
+}
+
+.fourth-box {
+    border: 2px solid black;
+    height: 15%;
+}
+
+.footer {
+    height: 5%;
+}
