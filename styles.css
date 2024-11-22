@@ -37,12 +37,11 @@ body {
 
 .first-box {
     background-color: #1F2937;
-    border: 2px solid orange;
+    padding-top: 10px;
 }
 
 .first-box-width-setter {
     width: 70%;
-    border: 2px solid orange;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -51,12 +50,35 @@ body {
 
 .content-box {
     height: 15vh;
-    border: 2px solid purple;
+    gap: 15px;
+}
+
+.content-box-title {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.content-box-text {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.content-box-button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 20px;
+    padding: 7px 5px;
+    width: 150px;
+}
+
+.content-box-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .content-box-right {
     width: 50%;
-    border: 2px solid white;
     background-color: gray;
     display: flex;
     justify-content: center;
@@ -81,6 +103,7 @@ body {
 
 .header-links {
     display: flex;
+    gap: 10px;
 }
 
 .header-links li {
@@ -100,6 +123,93 @@ body {
     background-color: white;
 }
 
+.second-box-text,
+.square-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.second-box-text {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+}
+
+.square-container {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+}
+
+.squares {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.square {
+    border: 2px solid lightblue;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+/* Third Box */
+
 .third-box {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text,
+.quote-author {
+    width: 700px;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: end;
+}
+
+/* Fourth Box */
+
+.fourth-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-box {
+    background-color: #3882F6;
+    width: 700px;
+    height: 50%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 5px;
+}
+
+.sign-up-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    border-radius: 5px;
+    color: white;
+    background-color: #3882f6;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
